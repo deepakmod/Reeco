@@ -1,4 +1,3 @@
-@import "keep-react/src/main.min.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,4 +15,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+th,td{
+  color: rgb(128, 128, 128) !important;
+  font-size: 16px !important;
+}
+table thead {
+  border: 1px solid #E5E7EB;
+  border-top: 0;
+  border-radius: 100px;
+}
+th{
+  padding: 10px!important;
 }
