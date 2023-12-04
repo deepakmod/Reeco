@@ -1,7 +1,7 @@
 import logo from "../../assets/logo.svg";
-export const NavbarComponent = () => {
+const Navbar = () => {
     return (
-        <nav  className="bg-[#1E633F] text-slate-300 text-2xl fixed top-0 left-0 right-0" >
+        <nav  className="bg-[#1E633F] text-slate-300 text-2xl sticky top-0 left-0 right-0" >
             <div className="flex items-center justify-between lg:px-28 px-10 py-6 ">
                 <div className="flex items-center gap-20">
                     <img
@@ -40,3 +40,5 @@ export const NavbarComponent = () => {
         </nav>
     );
 }
+
+export default Navbar;
